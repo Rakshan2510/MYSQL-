@@ -1,0 +1,2 @@
+CREATE TABLE employees(id INT PRIMARY KEY, name VARCHAR(50), salary DECIMAL);
+ALTER TABLE employees ADD COLUMN dept_id INT;
